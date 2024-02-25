@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Navbar from './component/Navbar';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Project from './pages/Project';
 
 function App() {
     return (
-        <>
-        <main className='font-mont bg-light  w-full  min-h-screen'>
-              <Navbar />
-        </main>
-            
-        </>
+        <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/about" element={<About/>} />
+            <Route path='/project' element={<Project/>} />
+        </Routes>
     );
 }
 

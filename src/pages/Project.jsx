@@ -19,7 +19,7 @@ const ProjectCard = ({ Data }) => {
                     <p className='font-sm text-md '>{Data.Summary}</p>
                     <div className='flex  justify-between'>
                         <a href={Data.VisitLink}  className='font-semibold text-dark text-lg'>Visit</a>
-                        <a href={Data.VisitLink} className='font-semibold text-dark w-6'><GithubIcon /></a>
+                        <a href={Data.GithupLiknk} className='font-semibold text-dark w-6'><GithubIcon /></a>
                     </div>
                 </div>
 

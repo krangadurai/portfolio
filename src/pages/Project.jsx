@@ -3,7 +3,7 @@ import Navbar from '../component/Navbar';
 import Footer from '../component/Footer';
 import AnimationHeading from '../component/AnimationHeading';
 import { GithubIcon } from '../component/icons';
-import Image1 from '../assets/images/projects/protfolio.png'
+import Image1 from '../assets/images/projects/portfolio.png'
 const ProjectCard = ({ Data }) => {
 
     return (
@@ -30,7 +30,7 @@ const ProjectCard = ({ Data }) => {
 
 const Project = () => {
     let data = [{
-        Name: "Protfolio Web Site",
+        Name: "Portfolio Web Site",
         Type: "Personal Project",
         Summary: "Portfolio Website is a personalized digital space showcasing professional accomplishments, skills, and creativity. It offers a dynamic platform for visitors to explore qualifications, projects, and insights firsthand.",
         VistLink: "https://minimal-nextjs-portfolio-website.vercel.app/projects",

@@ -19,7 +19,7 @@ const Home = () => {
                         <p className=' font-10sm  lg:text-center md:text-center sm:text-center'>As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
                             Explore my latest projects and articles, showcasing my expertise in React.js and web development.</p>
                         <div className="flex py-6 items-center lg:justify-center md:justify-center sm:flex-col">
-                            <Link to={'/dummy.pdf'} className='bg-dark text-light flex  border-transparent border-2 rounded-md p-2.5 font-bold px-6 text-base hover:bg-light hover:text-dark hover:border-dark' >Resume <LinkArrow className={'w-6 ml-1'} /> </Link>
+                            <a href={'https://storage.rxresu.me/clp9fumt427709hun2ir877u9/resumes/clp9jjg8r03scgbs8kffu75v3.pdf'} className='bg-dark text-light flex  border-transparent border-2 rounded-md p-2.5 font-bold px-6 text-base hover:bg-light hover:text-dark hover:border-dark' >Resume <LinkArrow className={'w-6 ml-1'} /> </a>
                             <a className='text-dark ml-6 sm:ml-0 sm:mt-4 self-center underline font-semibold underline-offset-4  ' href="mailto:rangadurai27@gmail.com">Contacts</a>
                         </div>
                     </div>
